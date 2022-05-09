@@ -45,6 +45,18 @@ nav li {
 /* MAIN */
 section {
   height: calc(100vh - 120px);
+  padding: 10px 0;
+
+  /* test */
+  border: 1px dotted red;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+
+  /* test */
+  background-color: aquamarine;
 }
 
 /* FOOTER */
