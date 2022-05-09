@@ -96,15 +96,17 @@ footer ul {
 footer a {
   text-decoration: none;
   color: inherit;
-  margin: 0 10px;
+  margin: 0 6px;
   font-size: 12px;
 }
 footer li {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.interaction-menu li {
-  margin: 0 10px;
-}
+
 #active i {
   color: green;
 }
