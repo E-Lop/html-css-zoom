@@ -41,3 +41,14 @@ nav a {
 nav li {
   margin-right: 10px;
 }
+
+/* MAIN */
+section {
+  height: calc(100vh - 120px);
+}
+
+/* FOOTER */
+footer {
+  height: 70px;
+  background-color: #222222;
+}
