@@ -43,12 +43,13 @@ nav li {
 }
 
 /* MAIN */
+
+main {
+  background-color: black;
+}
 section {
   height: calc(100vh - 120px);
   padding: 10px 0;
-
-  /* test */
-  border: 1px dotted red;
 }
 
 .container {
@@ -56,15 +57,14 @@ section {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-
-  /* test */
-  background-color: aquamarine;
+  justify-content: center;
 }
 
 .card {
   width: 246px;
   height: 146px;
   position: relative;
+  margin: 5px 2px;
 }
 
 .user-mic {
@@ -72,9 +72,26 @@ section {
   left: 0;
   bottom: 2px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.3);
 }
+
 /* FOOTER */
 footer {
   height: 70px;
   background-color: #222222;
+  color: white;
+}
+
+footer ul {
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+}
+
+footer li {
+  vertical-align: middle;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
