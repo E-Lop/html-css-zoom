@@ -54,11 +54,25 @@ section {
 .container {
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 
   /* test */
   background-color: aquamarine;
 }
 
+.card {
+  width: 246px;
+  height: 146px;
+  position: relative;
+}
+
+.user-mic {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  color: white;
+}
 /* FOOTER */
 footer {
   height: 70px;
